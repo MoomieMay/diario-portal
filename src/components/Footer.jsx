@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaXTwitter } from 'react-icons/fa6
 import { FaWhatsapp } from 'react-icons/fa';
 import logo from '../assets/logo-foot.png';
 import googlePlay from '../assets/google-play.webp';
-import '../styles/Custom.css';
+import '../styles/custom.css';
 
 const Footer = () => {
   return (
