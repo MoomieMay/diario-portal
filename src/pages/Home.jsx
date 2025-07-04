@@ -1,6 +1,6 @@
 import React from 'react';
 import Submenu from '../components/Submenu';
-import '../styles/Custom.css';
+import '../styles/custom.css';
 
 const Home = () => {
   return (
