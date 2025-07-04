@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/custom.css'
-import img from '../assets/anuncios.png'
+import img from '../assets/anuncios.PNG'
 
 export default function Anuncios() {
     return (

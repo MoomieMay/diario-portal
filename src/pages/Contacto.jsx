@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/contacto.png'
+import img from '../assets/contacto.PNG'
 import '../styles/custom.css'
 
 export default function Contacto() {
