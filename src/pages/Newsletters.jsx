@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/custom.css'
-import img from '../assets/newsletters.png'
+import img from '../assets/newsletters.PNG'
 import news from '../assets/news.jpg'
 
 
