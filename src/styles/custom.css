@@ -1,0 +1,224 @@
+main {
+  margin-top: 120px;
+}
+
+/* FOOTER */
+.footer{
+  position: relative;
+}
+
+.footer span {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer span:hover {
+  color: #ccc;
+}
+
+
+/* WHATSAPP */
+.whatsapp-footer-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-50%, -50%); /* lo "saca" un poco del footer para que se note */
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+
+/* HOME */
+.news-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.news-card.large img {
+  height: 350px;
+}
+
+.news-card.small img {
+  height: 170px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.badge-noticia {
+  background-color: red;
+  color: white !important;
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.headline {
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+
+
+/* FUNEBRES */
+.titleFunebres {
+  margin: 20px 0px;
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 3px solid #be1622;
+}
+
+.funebresCard {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* NEWSLETTERS */
+.titleNewsletters {
+  margin: 20px 0px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.btn-jornada {
+  background-color: #be1622 !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #be1622 !important;
+  padding: 0px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.card-img-top {
+  border-radius: 0 !important;
+  /* Quita bordes redondeados de la imagen */
+}
+
+.card-text {
+  color: white !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+}
+
+/* CLASIFICADOS */
+.titleClasificados {
+  padding-bottom: 10px;
+  font-weight: 600;
+  border-bottom: 3px solid #be1622;
+}
+
+.ClasificadosCard {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin: 25px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin: 5px 10px;
+}
+
+.card-title-clasificados {
+  font-weight: 600;
+}
+
+.card-body-clasificados {
+  background-color: whitesmoke;
+  padding: 10px;
+  position: relative; /* 👈 clave para posicionar el badge */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text-clasificados {
+  font-size: 0.75rem;
+  line-height: 1.2;
+  color: #333;
+}
+
+/* Asegura que la imagen ocupe el alto del contenedor */
+.img-fluid.h-100 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* CONTACTO */
+.title-contacto {
+  border-bottom: 3px solid #be1622;
+}
+
+p a{
+  color: #333 !important;
+  text-decoration:underline;
+  font-size:1em;
+}
+
+.img-contacto {
+  height: auto;
+  max-height: 200px;
+  margin-top: 20px;
+}
+
+/* ANUNCIOS */
+.card-body-anuncio {
+  background-color: white !important;
+  padding: 20px;
+  margin: 0 ;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header-anuncio{
+  background-color: #be1622 !important;
+  color: white !important;
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text-anuncio{
+  font-weight: 600 !important;
+  font-size: large;
+}
+
