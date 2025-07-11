@@ -19,7 +19,7 @@ export default function Radio() {
 
       <div className="container my-5">
         <h1 className='titleFunebres'> MIRÁ LA RADIO EN VIVO</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/zYZagXA3rKQ?list=UUqDA-KXzsZ3SEGHInfv5rpQ" title="🔵 JORNADA STREAM | Tiempo Deportivo - Sandro Giménez, Edgardo Lillo, Leo Lugo y Fran Caputo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/zYZagXA3rKQ?list=UUqDA-KXzsZ3SEGHInfv5rpQ" title="🔵 JORNADA STREAM | Tiempo Deportivo - Sandro Giménez, Edgardo Lillo, Leo Lugo y Fran Caputo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
       <div className="container my-5">
