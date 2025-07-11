@@ -1,9 +1,9 @@
 main {
-  margin-top: 120px;
+  margin: 120px 0;
 }
 
 /* FOOTER */
-.footer{
+.footer {
   position: relative;
 }
 
@@ -22,7 +22,8 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-50%, -50%); /* lo "saca" un poco del footer para que se note */
+  transform: translate(-50%, -50%);
+  /* lo "saca" un poco del footer para que se note */
   background-color: #25d366;
   color: white;
   border-radius: 50%;
@@ -163,7 +164,8 @@ label {
 .card-body-clasificados {
   background-color: whitesmoke;
   padding: 10px;
-  position: relative; /* 👈 clave para posicionar el badge */
+  position: relative;
+  /* 👈 clave para posicionar el badge */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -189,10 +191,10 @@ label {
   border-bottom: 3px solid #be1622;
 }
 
-p a{
+p a {
   color: #333 !important;
-  text-decoration:underline;
-  font-size:1em;
+  text-decoration: underline;
+  font-size: 1em;
 }
 
 .img-contacto {
@@ -205,11 +207,11 @@ p a{
 .card-body-anuncio {
   background-color: white !important;
   padding: 20px;
-  margin: 0 ;
+  margin: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card-header-anuncio{
+.card-header-anuncio {
   background-color: #be1622 !important;
   color: white !important;
   font-weight: 400;
@@ -217,8 +219,28 @@ p a{
   padding: 10px;
 }
 
-.card-text-anuncio{
+.card-text-anuncio {
   font-weight: 600 !important;
   font-size: large;
 }
 
+/* STREAM */
+.text-cat {
+  color: #be1622;
+  margin-bottom: 0;
+}
+
+/* EDICION IMPRESA */
+.visor-pdf {
+  width: 100%;
+  height: 600px;
+  border: none;
+}
+
+/* NOTICIAS */
+.img-noticia {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}

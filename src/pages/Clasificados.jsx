@@ -6,7 +6,7 @@ import '../styles/custom.css';
 export default function Clasificados() {
   return (
     <div className='container'>
-      <h1 className='titleClasificados'>Clasificados</h1>
+      <h1 className='titleClasificados mt-4'>Clasificados</h1>
       <Submenu />
 
       <div className='row'>
@@ -34,15 +34,15 @@ export default function Clasificados() {
             <p className='fs-5 fw-bold mt-3'> Ubicación</p>
             <div>
               <input type="radio" id="cbox1" value="" />
-              <label for="cbox2"> Caleta Olivia</label>
+              <label for="cbox2"> Trelew</label>
             </div>
             <div>
               <input type="radio" id="cbox2" value="" />
-              <label for="cbox2"> Comodoro Rivadavia</label>
+              <label for="cbox2"> Rawson </label>
             </div>
             <div>
               <input type="radio" id="cbox3" value="" />
-              <label for="cbox2"> Trelew</label>
+              <label for="cbox2"> Comodoro Rivadavia </label>
             </div>
             <div>
               <input type="radio" id="cbox4" value="" />

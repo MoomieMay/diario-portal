@@ -9,6 +9,13 @@
     padding: 20px 75px;
 }
 
+@media (max-width: 767.98px) {
+    .top-bar {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+}
+
 /* HEADER */
 .header-logo {
     background-color: #be1622;
@@ -16,11 +23,26 @@
     padding: 2.5em;
 }
 
-div a {
-    color: white;
+.nav-link-header {
+    color: white !important;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.2rem;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+}
+
+@media (max-width: 767.98px) {
+    .header-logo {
+        padding: 1.5em 1em;
+    }
+
+    .nav-link-header {
+        font-size: 0.85rem !important;
+    }
+
+    .logo-header {
+        width: 75%;
+        height: auto;
+    }
 }
 
 /* NAV MENU */
@@ -34,20 +56,70 @@ div a {
     font-size: 1.5em;
 }
 
-/* SUBMENU */
-.submenu {
-  width: 100%;
-  background-color: #ffffff;
-  border-bottom: 1px solid #ccc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-weight: bold;
-  margin: 0;
-  padding: 0.5rem 5rem;
+@media (max-width: 767.98px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1rem;
+    }
+
+    .nav-menu {
+        padding: 1rem;
+    }
+
+    .nav-menu input.form-control {
+        margin-top: 0.5rem;
+    }
+
+    .navbar-toggler {
+        padding-left: 0 !important;
+        border: none !important;
+    }
+
+    a.nav-link {
+        padding: 0;
+    }
+
+    .navbar-collapse.collapse {
+        transition: all 0.3s ease-in-out;
+    }
+
 }
 
+/* SUBMENU GENERAL */
+.submenu {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Estilos del ítem */
 .submenu-item {
-  color: #000;
-  cursor: pointer;
-  text-transform: uppercase;
-  font-size: 0.9rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+    color: black;
+}
+
+/* Por defecto, mostrar horizontal y ocultar móvil */
+.desktop-menu {
+    display: flex;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* En pantallas móviles, ocultar horizontal y mostrar select */
+@media (max-width: 767.98px) {
+    .desktop-menu {
+        display: none !important;
+    }
+
+    .mobile-menu {
+        display: block !important;
+    }
 }
