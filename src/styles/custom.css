@@ -77,7 +77,7 @@ main {
   font-weight: bold;
   border-radius: 2px;
   position: absolute;
-  bottom: 8px;
+  top: 8px;
   right: 8px;
 }
 
@@ -102,6 +102,20 @@ main {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767.98px) {
+  .funebresCard p {
+    font-size: 0.85rem !important; 
+  }
+  .funebresCard .fs-3 {
+    font-size: 1.25rem !important; 
+  }
+  .funebresCard .fs-5 {
+    font-size: 0.9rem !important; 
+  }
+}
+
 
 /* NEWSLETTERS */
 .titleNewsletters {

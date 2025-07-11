@@ -54,7 +54,7 @@ export default function Clasificados() {
 
         <div className='col-12 col-md-9 mt-4'>
           <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-4 mb-4">
               <div className="card h-100">
                 <div className="row g-0 h-100">
                   <div className="col-md-4 position-relative">
@@ -72,7 +72,7 @@ export default function Clasificados() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-4">
+            <div className="col-sm-4 mb-4">
               <div className="card h-100">
                 <div className="row g-0 h-100">
                   <div className="col-md-4 position-relative">

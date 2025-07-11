@@ -25,7 +25,7 @@ export default function Radio() {
       <div className="container my-5">
         <h1 className='titleFunebres'> CADENA TIEMPO </h1>
         <div className="row mb-5">
-          <div className="col-md-4">
+          <div className="col-md-4 mb-3">
             <div className="news-card small">
               <img src={noticia} alt="Noticia secundaria" />
               <div className="overlay">
@@ -34,7 +34,7 @@ export default function Radio() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-3">
             <div className="news-card small">
               <img src={noticia} alt="Noticia secundaria" />
               <div className="overlay">
@@ -43,7 +43,7 @@ export default function Radio() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mb-3">
             <div className="news-card small">
               <img src={noticia} alt="Noticia secundaria" />
               <div className="overlay">
