@@ -31,6 +31,7 @@ const NavMenu = () => {
                         <NavLink to="/newsletters" className="nav-link" onClick={handleNavClick}>NEWSLETTERS</NavLink>
                         <NavLink to="/clasificados" className="nav-link" onClick={handleNavClick}>CLASIFICADOS</NavLink>
                         <NavLink to="/contacto" className="nav-link" onClick={handleNavClick}>CONTACTO</NavLink>
+                        <NavLink to="/anuncios" className="nav-link">CÓMO ANUNCIAR</NavLink>
                     </div>
 
                     {/* Barra de búsqueda */}

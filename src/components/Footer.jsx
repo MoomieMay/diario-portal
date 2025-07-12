@@ -26,24 +26,13 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Fila de enlaces */}
-        <div className="row mt-4">
-          <div className="col d-flex justify-content-around flex-wrap text-uppercase small">
-            <NavLink to="/" className="nav-link">INICIO</NavLink>
-            <NavLink to="/newsletters" className="nav-link">NEWSLETTERS</NavLink>
-            <NavLink to="/clasificados" className="nav-link">CLASIFICADOS</NavLink>
-            <NavLink to="/funebres" className="nav-link">FÚNEBRES</NavLink>
-            <NavLink to="/anuncios" className="nav-link">CÓMO ANUNCIAR</NavLink>
-          </div>
-        </div>
-
         {/* Separador blanco */}
         <hr className="border-white my-4" />
 
         {/* Fila final */}
         <div className="row pb-3">
           <div className="col text-center small">
-            &copy; 2024 | Políticas de Privacidad
+            &copy; 2024 | CTRL Kraken
           </div>
         </div>
       </div>
