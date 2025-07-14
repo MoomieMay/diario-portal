@@ -9,8 +9,9 @@ import { RiNewsFill } from "react-icons/ri";
 const Header = () => {
   return (
     <div className="d-flex flex-column flex-md-row justify-content-between align-items-center border-bottom header-logo text-center text-md-start">
-      <img src={logo} alt="Logo Diario" height="80" className="mb-3 mb-md-0 logo-header" />
-      
+      <NavLink to="/" className="nav-link-header">
+        <img src={logo} alt="Logo Diario" height="80" className="mb-3 mb-md-0 logo-header" />
+      </NavLink>
       <div className="d-flex flex-column align-items-center align-items-md-end gap-2">
         <NavLink to="/stream" className="nav-link-header">JORNADASTREAM <MdOndemandVideo /></NavLink>
         <NavLink to="/radio" className="nav-link-header">CADENATIEMPO <IoMdHeadset /></NavLink>

@@ -6,12 +6,19 @@ export default function Anuncios() {
     return (
         <div className='container'>
             <div class="row">
-                <div class="col-6 col-sm-6 mt-5">
-                    <h1 className='titleNewsletters'> Como Anunciar</h1>
-                    <p className='fs-5'>Te ofrecemos múltiples alternativas enfocadas en llegar a tus clientes de una forma más rápida y aumentar tus ventas.</p>
+                <div class="col-sm-6 order-sm-1">
+                    <div class="d-block mt-5 d-sm-none">
+                        <img src={img} alt="Anuncios" className="img-fluid mb-3" />
+                    </div>
+
+                    <div className="content-wrapper">
+                        <h1 className='titleNewsletters'> Como Anunciar</h1>
+                        <p className='fs-5'>Te ofrecemos múltiples alternativas enfocadas en llegar a tus clientes de una forma más rápida y aumentar tus ventas.</p>
+                    </div>
                 </div>
-                <div class="col-6 col-sm-6 mt-5">
-                    <img src={img} alt="Newsletter" className="img-fluid mb-3" />
+
+                <div className="col-sm-6 mt-4 d-none d-sm-block order-sm-2">
+                    <img src={img} alt="Anuncios" className="img-fluid" />
                 </div>
             </div>
 
@@ -108,14 +115,14 @@ export default function Anuncios() {
                         <p className='fs-5'><a href="mailto: gcomercial@grupojornada.com">gcomercial@grupojornada.com </a> </p>
                     </div>
                     <div className='col-12 col-sm-4'>
-                    <p className='fs-5'> Contacto Radio y Web</p>
-                    <p className='fs-5'><a href="mailto: publicidadjornada@gmail.com">publicidadjornada@gmail.com </a> </p>
-                </div>
+                        <p className='fs-5'> Contacto Radio y Web</p>
+                        <p className='fs-5'><a href="mailto: publicidadjornada@gmail.com">publicidadjornada@gmail.com </a> </p>
+                    </div>
 
-                <div className='col-12 col-sm-4'>
-                    <p className='fs-5'> Contacto Streaming, Clasificados, Podcast</p>
-                    <p className='fs-5'><a href="mailto: avisosjornada@gmail.com">avisosjornada@gmail.com </a> </p>
-                </div>
+                    <div className='col-12 col-sm-4'>
+                        <p className='fs-5'> Contacto Streaming, Clasificados, Podcast</p>
+                        <p className='fs-5'><a href="mailto: avisosjornada@gmail.com">avisosjornada@gmail.com </a> </p>
+                    </div>
                 </div>
 
             </div>
