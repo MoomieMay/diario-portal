@@ -1,6 +1,7 @@
 import React from 'react'
 import banner from '../assets/radio-banner.png';
 import noticia from '../assets/noticia.jpg';
+import '../styles/custom.css';
 
 export default function Radio() {
   return (
@@ -19,7 +20,14 @@ export default function Radio() {
 
       <div className="container my-5">
         <h1 className='titleFunebres'> MIRÁ LA RADIO EN VIVO</h1>
-        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/zYZagXA3rKQ?list=UUqDA-KXzsZ3SEGHInfv5rpQ" title="🔵 JORNADA STREAM | Tiempo Deportivo - Sandro Giménez, Edgardo Lillo, Leo Lugo y Fran Caputo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-responsive">
+          <iframe
+            src="https://www.youtube.com/embed/zYZagXA3rKQ?list=UUqDA-KXzsZ3SEGHInfv5rpQ"
+            title="🔵 JORNADA STREAM | Tiempo Deportivo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <div className="container my-5">
